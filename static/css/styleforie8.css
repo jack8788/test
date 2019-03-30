@@ -1,0 +1,3 @@
+﻿nav>div>.logo>a{background-image: url('../images/logomin.png');}
+nav>div>ul>li>a:hover,.top>ul>li:hover,.foot>div>.web>li:hover{-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#6FFFFFFF,endColorstr=#6FFFFFFF)";}
+.top>ul>li{height:36px;}.top>ul>li>a{display: block;width:36px;height:36px;background:url(../images/top.png) no-repeat;}.top>ul>li+li{height:96px;}.top>ul>li+li>a{display:block;width:36px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;padding:6px 2px 0;font-size:12px;line-height:22px;text-align:center;color:#fff;border-top:1px solid #fff;background-image:none;}

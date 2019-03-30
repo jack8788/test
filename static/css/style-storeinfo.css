@@ -1,0 +1,200 @@
+﻿/*标题部分*/
+.news-title{
+    width: 100%;
+    height: 110px;
+    background: url(../images/store.jpg) no-repeat;
+    background-position: center;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 110px;
+    letter-spacing: 20px;
+    text-align: center;
+    color: rgba(255,255,255,1);
+}
+
+/*导航*/
+.crumbs{
+    margin: 20px auto !important;
+}
+.crumbs>a{
+    font-size: 14px;
+    color: #5fb0b4;
+    padding: 0 5px;
+}
+/*文章部分*/
+.word-box{
+    margin-bottom: 40px;
+    padding: 60px;
+    border: 1px solid #dcdcdc;
+    border-top: 3px solid #57b988;
+}
+/*标题样式*/
+.news-word-title{
+    font-size: 20px;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.word-box>h3{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 24px;
+    color: #666;
+    font-weight: normal;
+}
+/*提示信息部分*/
+.news-word-time{
+    margin-bottom: 24px;
+    font-size: 0;
+}
+.news-word-time>span{
+    display: inline-block;
+    width: 33.33%;
+    font-size: 12px;
+    color: #999;
+}
+
+/*正文部分*/
+.news-word-word>ul{
+    margin-bottom: 20px;
+}
+/*标题样式*/
+.news-word-word>ul>li:first-child{
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-indent: 24px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #6b6b6b;
+    color: #6b6b6b;
+}
+.news-word-word>ul>li>i{
+    position: absolute;
+    top: 4px;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/store-icon.png) no-repeat;
+}
+.news-word-word>ul:nth-child(2) li>i{
+    background-position: 0 -20px;
+}
+.news-word-word>ul:nth-child(3) li>i{
+    background-position: 0 -40px;
+}
+/*正文样式*/
+.store-product>li>h2{
+    font-size: 17px;
+    color: #359183;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #359183;
+}
+.store-product>li>ul{
+    font-size: 0;
+}
+.store-product>li>ul>li{
+    display: inline-block;
+    margin-bottom: 14px;
+    width: 50%;
+    padding: 12px;
+}
+.store-product>li>ul>li:nth-child(2n+1){
+    padding-right: 24px;
+}
+.store-product>li>ul>li:nth-child(2n){
+    padding-left: 24px;
+}
+.store-product>li>ul>li:hover{
+    box-shadow: 0 0 4px #bbb;
+}
+.store-product>li>ul>li>a>img{
+    width: 100px;
+    height: 100px;
+}
+.store-product>li>ul>li>a>h3{
+    margin-left: 106px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.store-product>li>ul>li>a>p{
+    margin-left: 106px;
+    font-size: 14px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.store-product>li>ul>li>a>div{
+    margin-left: 106px;
+    text-align: right;
+}
+.store-product>li>ul>li>a>div>span{
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-left: -4px;
+    color: #fff;
+    padding: 10px 6px;
+    background-color: #359183;
+    border-radius: 6px;
+}
+
+.store-news>li>ul>li{
+    list-style: disc inside;
+    line-height: 24px;
+}
+.store-news>li>ul>li>a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(53,145,131)
+}
+
+/*底部信息*/
+.news-word-foot{
+    text-align: right;
+}
+.news-word-foot>em{
+    font-size: 12px;
+    color: #989898;
+    font-style: italic;
+    text-align: right;
+}
+
+@media screen and (max-width:768px){
+    .top-pic>h3{
+        letter-spacing: 2px;
+    }
+    .word-box{
+        border:none;
+        padding: 30px 0;
+    }
+    .news-word-title{
+        letter-spacing: 2px;
+    }
+    .store-product>li>ul>li{
+        width: 100%;
+        border-bottom: 1px solid #359183;
+    }
+    .store-product>li>ul>li{
+        width: 100%;
+        margin: 0;
+    }
+    .store-product>li>ul>li:nth-child(2n+1){
+        padding: 12px 0 24px;
+    }
+    .store-product>li>ul>li:nth-child(2n){
+        padding: 12px 0 24px;
+    }
+    .store-product>li>ul>li{
+        border-bottom: 1px solid #7c7c7c;
+    }
+    .store-product>li>ul>li:last-child{
+        border-bottom:none;
+    }
+}
